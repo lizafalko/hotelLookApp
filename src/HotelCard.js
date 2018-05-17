@@ -11,12 +11,14 @@ export class HotelCard extends Component {
       image,
       description,
       price,
-      rating
+      rating,
+      width,
+      height
     } = this.props;
 
     return (
       <div className="card">
-        <img src={image} className="card__image" />
+        <img width={width} height={height} src={image} className="card__image" />
         <div>
           <div className="card__block">
             <h3>{name}</h3>
