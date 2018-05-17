@@ -24,6 +24,7 @@ html, body {
 
 .page {
   margin-left: 40px;
+  margin-right: 20px;
 }
 
 .card {
@@ -119,4 +120,19 @@ html, body {
 
 ::selection {
   background-color: silver;
+}
+
+.close_icon {
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+.page__close-icon {
+  display: flex;
+}
+
+.page__page--modification {
+  margin-right: 40px;
 }
