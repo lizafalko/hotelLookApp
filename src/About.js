@@ -25,7 +25,7 @@ export class About extends Component {
   }
 
   render() {
-    const hotelCards = this.state.displayedHotels.map(hotel =>
+    const hotelCards = this.state.displayedHotels.sort(function(a, b) { return a.price < b.price }).map(hotel =>
       <HotelCard
         key={hotel.id}
         id={hotel.id}

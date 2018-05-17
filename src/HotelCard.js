@@ -22,7 +22,7 @@ export class HotelCard extends Component {
         <div>
           <div className="card__block">
             <h3>{name}</h3>
-            <span className="card__rating">{rating}</span>
+            <a href="#" className="card__rating">{rating}</a>
           </div>
           <p className="card__description">
             {
