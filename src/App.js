@@ -12,7 +12,7 @@ const history = createBrowserHistory();
 class Navigation extends Component {
   render() {
     return (
-      <BrowserRouter basename={(!process.env.NODE_ENV || process.env.NODE_ENV === 'development') ? "/" : "/hotelLookApp/"} history={history}>
+      <BrowserRouter basename="/hotelLookApp/" history={history}>
         <div className="main_block">
           <ul className="main_block__list">
             <li className="main_block__link"><Link className="main_block__menu" to="/">Home</Link></li>
