@@ -1,6 +1,14 @@
 {
-  "main.css": "static/css/main.ce107675.css",
-  "main.css.map": "static/css/main.ce107675.css.map",
-  "main.js": "static/js/main.0eb912c9.js",
-  "main.js.map": "static/js/main.0eb912c9.js.map"
+  "main.css": "/hotelLookApp/static/css/main.5bdc4f49.chunk.css",
+  "main.js": "/hotelLookApp/static/js/main.48b341c8.chunk.js",
+  "main.js.map": "/hotelLookApp/static/js/main.48b341c8.chunk.js.map",
+  "static/js/1.6b2f399a.chunk.js": "/hotelLookApp/static/js/1.6b2f399a.chunk.js",
+  "static/js/1.6b2f399a.chunk.js.map": "/hotelLookApp/static/js/1.6b2f399a.chunk.js.map",
+  "runtime~main.js": "/hotelLookApp/static/js/runtime~main.a7b6a6ae.js",
+  "runtime~main.js.map": "/hotelLookApp/static/js/runtime~main.a7b6a6ae.js.map",
+  "static/media/icon01.svg": "/hotelLookApp/static/media/icon01.1ba9828d.svg",
+  "static/media/icon02.svg": "/hotelLookApp/static/media/icon02.d4a098c0.svg",
+  "static/media/icon03.svg": "/hotelLookApp/static/media/icon03.d578b2f4.svg",
+  "static/media/icon04.svg": "/hotelLookApp/static/media/icon04.eecf9a5d.svg",
+  "index.html": "/hotelLookApp/index.html"
 }
