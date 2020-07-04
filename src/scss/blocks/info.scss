@@ -1,17 +1,26 @@
-.advantages {
-  min-height: 351px;
+.info {
+  min-height: 400px;
   padding: 30px;
-  background: $color-yellow;
-  color: $color-black-primary;
+  background: $color-white;
 
   &__heading {
     font-size: 42px;
+    color: $color-black-primary;
     font-weight: 500;
+  }
+
+  &__text {
+    color: $color-grey;
+    font-size: 14px;
+    line-height: 20px;
   }
 
   &__icons {
     display: flex;
     justify-content: center;
+    color: $color-black;
+    font-size: 18px;
+    line-height: 24px;
   }
 
   @media (max-width: 760px) {
