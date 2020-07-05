@@ -26,6 +26,12 @@
     }
   }
 
+  &__description {
+    &_bold {
+      font-weight: 500;
+    }
+  }
+
   @media screen and (min-width: 760px) {
 		&__image:hover {
 			transform: scale(1.1);
