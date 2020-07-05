@@ -1,5 +1,4 @@
 import React from 'react';
-import Shape from './img/Shape.svg';
 import MarketPlace from './img/MarketPlace.svg';
 
 export function Banner() {
