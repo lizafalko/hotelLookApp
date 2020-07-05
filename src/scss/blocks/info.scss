@@ -7,12 +7,14 @@
     font-size: 42px;
     color: $color-black-primary;
     font-weight: 500;
+    margin-bottom: 0;
   }
 
   &__text {
     color: $color-grey;
     font-size: 14px;
     line-height: 20px;
+    font-weight: normal;
   }
 
   &__icons {
@@ -27,6 +29,11 @@
     &__icons {
       width: 100%;
       flex-wrap: wrap;
+    }
+
+    &__text {
+      text-align: left;
+      margin-top: 0;
     }
   }
 }

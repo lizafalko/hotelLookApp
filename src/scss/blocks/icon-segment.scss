@@ -3,7 +3,7 @@
   padding: 20px 40px;
 
   &_large {
-    max-width: 382px;
+    max-width: 280px;
   }
 
   &_small {
@@ -27,6 +27,8 @@
   }
 
   &__description {
+    margin-top: 8px;
+
     &_bold {
       font-weight: 500;
     }
