@@ -43,6 +43,8 @@
   }
 
   @media (max-width: 1250px) {
+    background: url('./img/Shape.svg') center center, $color-gradient;
+
     &__image {
       width: 350px;
       top: 15%;
