@@ -120,7 +120,15 @@
 
   @media (max-width: 375px) {
     &__image {
-      top: 29%;
+      width: 90%;
+      top: 25%;
+    }
+  }
+
+  @media (max-width: 320px) {
+    &__image {
+      width: 90%;
+      top: 38%;
     }
   }
 }
