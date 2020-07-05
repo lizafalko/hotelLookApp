@@ -1,4 +1,7 @@
 .info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   min-height: 400px;
   padding: 30px 15px;
   background: $color-white;
@@ -8,6 +11,7 @@
     color: $color-black-primary;
     font-weight: 500;
     margin-bottom: 0;
+    text-transform: uppercase;
   }
 
   &__text {
@@ -39,8 +43,8 @@
 
   @media (max-width: 460px) {
     &__heading {
-      font-size: 40px;
-      line-height: 40px;
+      font-size: 30px;
+      line-height: 32px;
     }
   }
 }
