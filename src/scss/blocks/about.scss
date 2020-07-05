@@ -1,0 +1,32 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  background: $color-white;
+  color: $color-black-primary;
+
+  &__text {
+    max-width: 990px;
+    font-size: 18px;
+    font-family: $font-family-bold;
+    line-height: 30px;
+    margin: 10px;
+  }
+
+  @media (max-width: 1250px) {
+    padding-top: 60px;
+  }
+
+  @media (max-width: 460px) {
+    padding-top: 90px;
+
+    &__text {
+      text-align: left;
+    }
+  }
+
+  @media (max-width: 460px) {
+    padding-top: 60px;
+  }
+}
