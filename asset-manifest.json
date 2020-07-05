@@ -1,9 +1,9 @@
 {
-  "main.css": "/hotelLookApp/static/css/main.7e7fb422.chunk.css",
-  "main.js": "/hotelLookApp/static/js/main.81731668.chunk.js",
-  "main.js.map": "/hotelLookApp/static/js/main.81731668.chunk.js.map",
-  "static/js/1.c910c578.chunk.js": "/hotelLookApp/static/js/1.c910c578.chunk.js",
-  "static/js/1.c910c578.chunk.js.map": "/hotelLookApp/static/js/1.c910c578.chunk.js.map",
+  "main.css": "/hotelLookApp/static/css/main.d5de09bc.chunk.css",
+  "main.js": "/hotelLookApp/static/js/main.9ac2433f.chunk.js",
+  "main.js.map": "/hotelLookApp/static/js/main.9ac2433f.chunk.js.map",
+  "static/js/1.e808f207.chunk.js": "/hotelLookApp/static/js/1.e808f207.chunk.js",
+  "static/js/1.e808f207.chunk.js.map": "/hotelLookApp/static/js/1.e808f207.chunk.js.map",
   "runtime~main.js": "/hotelLookApp/static/js/runtime~main.a7b6a6ae.js",
   "runtime~main.js.map": "/hotelLookApp/static/js/runtime~main.a7b6a6ae.js.map",
   "static/media/icon01.svg": "/hotelLookApp/static/media/icon01.1ba9828d.svg",
@@ -12,5 +12,7 @@
   "static/media/icon04.svg": "/hotelLookApp/static/media/icon04.eecf9a5d.svg",
   "static/media/icon06.svg": "/hotelLookApp/static/media/icon06.6ea74d01.svg",
   "static/media/icon05.svg": "/hotelLookApp/static/media/icon05.25f243a8.svg",
+  "static/media/DinWebNarrowDemi.ttf": "/hotelLookApp/static/media/DinWebNarrowDemi.d9a270b8.ttf",
+  "static/media/DINPro-CondBold.otf": "/hotelLookApp/static/media/DINPro-CondBold.481d38e7.otf",
   "index.html": "/hotelLookApp/index.html"
 }
