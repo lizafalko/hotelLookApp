@@ -36,4 +36,11 @@
       text-align: left;
     }
   }
+
+  @media (max-width: 460px) {
+    &__heading {
+      font-size: 40px;
+      line-height: 40px;
+    }
+  }
 }

@@ -47,7 +47,7 @@
 
     &__image {
       width: 350px;
-      top: 15%;
+      top: 25%;
       left: 34%;
     }
 
@@ -65,14 +65,22 @@
   @media (max-width: 1100px) {
     &__image {
       left: 30%;
+      top: 25%;
+    }
+  }
+
+  @media (max-width: 1050px) {
+    &__image {
+      left: 30%;
       top: 15%;
     }
   }
 
-  @media (max-width: 780px) {
+
+  @media (max-width: 770px) {
     &__image {
       left: 23%;
-      top: 15%;
+      top: 20%;
     }
   }
 
@@ -80,7 +88,7 @@
     &__image {
       width: 340px;
       left: 15%;
-      top: 15%;
+      top: 25%;
     }
   }
 
@@ -107,6 +115,12 @@
   @media (max-width: 380px) {
     &__image {
       top: 35%;
+    }
+  }
+
+  @media (max-width: 375px) {
+    &__image {
+      top: 25%;
     }
   }
 }
