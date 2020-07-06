@@ -13,7 +13,7 @@ export function Info() {
             iconClass="icon-segment icon-segment_large"
             imageClass="icon-segment__image icon-segment__image_large"
             src={Icon5}
-            description=<Linkify>Выбирайте товары на eldorado.ru с шильдиком и оформляйте заказ</Linkify>
+            description=<Linkify>Выбирайте товары на <a style={{color: '#434343'}} target="_blank" href="https://www.eldorado.ru">eldorado.ru</a> с шильдиком и оформляйте заказ</Linkify>
             textClass="icon-segment__description icon-segment__description_bold"
         />
         <IconSegment
