@@ -35,16 +35,20 @@
       width: 100%;
       flex-wrap: wrap;
     }
-
-    &__text {
-      text-align: left;
-    }
   }
 
   @media (max-width: 460px) {
     &__heading {
       font-size: 30px;
       line-height: 32px;
+    }
+
+    &__text {
+      text-align: left;
+    }
+
+    br {
+      display: none;
     }
   }
 }

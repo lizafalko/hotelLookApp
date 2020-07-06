@@ -1,6 +1,6 @@
 .banner {
-  min-height: 400px;
-  padding: 30px;
+  min-height: 450px;
+  padding: 30px 0 0;
   background: url('./img/Shape.svg') 100% 0 no-repeat, $color-gradient;
   color: $color-white;
   text-align: left;
@@ -8,7 +8,7 @@
   &__wrapper {
     display: flex;
     background: url('./img/parallax.svg') center center no-repeat;
-    padding: 0 0 150px;
+    padding: 0 0 200px;
     background-size: 1350px;
     background-attachment: fixed;
     background-position: center 12%;
@@ -84,9 +84,9 @@
     &__wrapper {
       background: url('./img/mob_parallax.svg') center bottom no-repeat;
       background-size: 100%;
-      padding-bottom: 70%;
+      padding: 0 0 305px;
       background-attachment: fixed;
-      background-position: center 12%;
+      background-position: center 15%;
       background-repeat: no-repeat;
     }
   }
@@ -117,6 +117,10 @@
       font-size: 40px;
       line-height: 40px;
     }
+
+    &__wrapper {
+      padding: 0 0 330px;
+    }
   }
 
   @media (max-width: 420px) {
@@ -136,14 +140,14 @@
   @media (max-width: 375px) {
     &__image {
       width: 85%;
-      top: 25%;
+      top: 30%;
     }
   }
 
   @media (max-width: 320px) {
     &__image {
       width: 90%;
-      top: 35%;
+      top: 40%;
     }
   }
 }
