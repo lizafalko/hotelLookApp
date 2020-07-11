@@ -1,12 +1,13 @@
 {
-  "main.css": "/hotelLookApp/static/css/main.caf1aee5.chunk.css",
-  "main.js": "/hotelLookApp/static/js/main.4b97c7f8.chunk.js",
-  "main.js.map": "/hotelLookApp/static/js/main.4b97c7f8.chunk.js.map",
+  "main.css": "/hotelLookApp/static/css/main.a9784124.chunk.css",
+  "main.js": "/hotelLookApp/static/js/main.7758bf41.chunk.js",
+  "main.js.map": "/hotelLookApp/static/js/main.7758bf41.chunk.js.map",
   "static/js/1.9bb05b36.chunk.js": "/hotelLookApp/static/js/1.9bb05b36.chunk.js",
   "static/js/1.9bb05b36.chunk.js.map": "/hotelLookApp/static/js/1.9bb05b36.chunk.js.map",
   "runtime~main.js": "/hotelLookApp/static/js/runtime~main.a7b6a6ae.js",
   "runtime~main.js.map": "/hotelLookApp/static/js/runtime~main.a7b6a6ae.js.map",
   "static/media/Roboto.ttf": "/hotelLookApp/static/media/Roboto.c613ca81.ttf",
   "static/media/Robotobold.ttf": "/hotelLookApp/static/media/Robotobold.1fc6a83d.ttf",
+  "static/media/index.scss": "/hotelLookApp/static/media/rect.294b2ca5.svg",
   "index.html": "/hotelLookApp/index.html"
 }
