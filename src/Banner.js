@@ -1,6 +1,5 @@
 import React from 'react';
 import Label from './Label';
-import Rectangle from './img/rect.svg';
 
 export function Banner(props) {
   return (
