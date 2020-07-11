@@ -1,12 +1,24 @@
 import React from 'react';
-import MarketPlace from './img/MarketPlace.svg';
 
 export function Banner() {
   return (
     <section className="banner">
-      <div className="banner__wrapper">
-        <h1 className="banner__heading">Маркетплейс <br/> в «Эльдорадо»</h1>
-        <img src={MarketPlace} className="banner__image" alt="" />
+      <div className="banner__container banner__container_purchase">
+        <div>
+          <p>Полная стоимость курса:</p>
+          <p>50 000 ₽</p>
+        </div>
+        <div>
+          <h2>Полная стоимость курса:</h2>
+          <p>2 900₽</p>
+        </div>
+        <div>
+          <p>29 000 ₽</p>
+          <p>Для первых 20-ти</p>
+        </div>
+      </div>
+      <div className="banner__container banner__container_info">
+        ;lfvlrnkrjdkeb
       </div>
     </section>
   );
