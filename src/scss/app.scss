@@ -1,7 +1,7 @@
 .app {
   width: 1170px;
   margin: auto;
-  background: silver;
+  padding: 30px;
 
   @media (max-width: 1240px) {
     width: 940px;
@@ -13,5 +13,9 @@
 
   @media (max-width: 760px) {
     width: 100%;
+  }
+
+  @media (max-width: 500px) {
+    padding: 0;
   }
 }

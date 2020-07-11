@@ -1,0 +1,19 @@
+.about {
+  padding: 60px;
+  text-align: center;
+
+  &__heading {
+    font-family: $font-family-primary;
+    font-weight: bold;
+    font-size: 55px;
+    letter-spacing: -0.5px;
+    color: $color-black-primary;
+  }
+
+  @media (max-width: 1000px) {
+    &__heading {
+      font-size: 38px;
+      text-align: center;
+    }
+  }
+}
