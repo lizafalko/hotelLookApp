@@ -3,9 +3,16 @@
   width: 110px;
   height: 119px;
   left: 50%;
-  top: 280px;
   margin-left: -350px;
   background: url('./img/rect.svg') 100% 0 no-repeat;
+
+  &_first {
+    top: 280px;
+  }
+
+  &_second {
+    margin-top: -370px;
+  }
 
   &__pretext {
     font-weight: bold;
@@ -37,6 +44,10 @@
   @media (max-width: 1000px) {
     margin-left: 0;
     transform: translate(-50%, -50%);
+
+    &_second {
+      margin-top: -270px;
+    }
   }
 
   @media (max-width: 760px) {
@@ -45,11 +56,17 @@
 
   @media (max-width: 500px) {
     left: 50%;
-    top: 250px;
+
+    &_first {
+      top: 250px;
+    }
   }
 
   @media (max-width: 482px) {
     left: 50%;
-    top: 280px;
+
+    &_first {
+      top: 280px;
+    }
   }
 }
