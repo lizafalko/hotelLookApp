@@ -1,5 +1,6 @@
 import React from 'react';
 import Label from './Label';
+import Phone from './Phone';
 
 export function Banner(props) {
   return (
@@ -20,7 +21,8 @@ export function Banner(props) {
         </div>
       </div>
       <div className="banner__container banner__container_info">
-        <h2>Запишитесь на курс</h2>
+        <h2 className="banner__subtitle">Запишитесь на курс</h2>
+        <Phone />
       </div>
     </section>
   );

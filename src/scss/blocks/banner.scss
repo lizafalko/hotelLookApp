@@ -21,8 +21,7 @@
 
     &_info {
       background: $color-white;
-      color: $color-grey;
-      padding: 50px 0 50px 85px;
+      padding: 40px 10px 40px 75px;
     }
   }
 
@@ -77,6 +76,13 @@
     font-size: 23px;
     line-height: 27px;
     margin-top: 0;
+  }
+
+  &__subtitle {
+    font-family: $font-family-bold;
+    font-weight: bold;
+    font-size: 34px;
+    letter-spacing: -0.5px;
   }
 
   @media (max-width: 1000px) {
