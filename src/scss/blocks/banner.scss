@@ -94,6 +94,12 @@
     }
   }
 
+  @media (max-width: 500px) {
+    &__container_info {
+      padding: 40px;
+    }
+  }
+
   @media (max-width: 460px) {
     &__heading {
       font-size: 56px;
