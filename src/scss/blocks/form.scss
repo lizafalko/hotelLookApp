@@ -15,7 +15,8 @@
       transition: .2s ease-in-out;
 
       &:focus {
-        border: 2px solid $color-light-grey;
+        border-color: $color-violet;
+        outline: 0 none;
       }
     }
 
