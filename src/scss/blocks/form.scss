@@ -20,6 +20,7 @@
     }
 
     &_button {
+      cursor: pointer;
       background: $color-blue;
       padding: 25px;
       border: none;
@@ -29,6 +30,11 @@
       line-height: 20px;
       letter-spacing: 1px;
       margin-bottom: 30px;
+      transition: .2s ease-in-out;
+
+      &:hover {
+        background: $color-blue-dark;
+      }
     }
   }
 

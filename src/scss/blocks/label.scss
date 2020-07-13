@@ -60,6 +60,10 @@
     &_first {
       top: 250px;
     }
+
+    &_second {
+      margin-top: -240px;
+    }
   }
 
   @media (max-width: 482px) {

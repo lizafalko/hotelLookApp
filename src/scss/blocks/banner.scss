@@ -99,8 +99,26 @@
   }
 
   @media (max-width: 500px) {
-    &__container_info {
-      padding: 40px;
+    box-shadow: none;
+
+    &__container {
+
+      &_info {
+        padding: 40px;
+      }
+
+      &_purchase {
+        padding: 100px 50px 50px;
+      }
+    }
+
+    &__text {
+      font-size: 18px;
+      margin-top: -10px;
+    }
+
+    &__heading {
+      font-size: 56px;
     }
   }
 
