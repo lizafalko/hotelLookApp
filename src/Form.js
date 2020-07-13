@@ -1,5 +1,5 @@
 import React from 'react';
-import Linkify from 'react-linkify';
+import Checkbox from './Checkbox';
 
 export function Form(props) {
   return (
@@ -12,13 +12,7 @@ export function Form(props) {
       <input className="form__field form__field_input" type="text" name="surname" placeholder="Телефон" />
       <input className="form__field form__field_input" type="text" name="mail" placeholder="Email" />
       <input className="form__field form__field_button" type="submit" value="Записаться" />
-      <label>
-        <input className="form__check" name="checkbox" type="checkbox" checked="checked" />
-        <span className="form__checkmark"></span>
-        <span className="form__checkbox">
-          <Linkify>Я согласен с условиями обработки <a className="form__link" style={{color: '#3D3BFF'}} rel="noopener noreferrer" target="_blank" href="https://skillbox.ru/privacy_policy.pdf">персональных данных</a></Linkify>
-        </span>
-      </label>
+      <Checkbox />
     </form>
   );
 }
