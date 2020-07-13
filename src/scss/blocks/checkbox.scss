@@ -10,6 +10,10 @@
   -ms-user-select: none;
   user-select: none;
 
+  &_mobile {
+    display: none;
+  }
+
   &__input {
     position: absolute;
     opacity: 0;
@@ -62,6 +66,15 @@
   }
 
   @media (max-width: 500px) {
+    &_desktop {
+      display: none;
+    }
+
+    &_mobile {
+      display: block;
+      margin: 10px 0 40px;
+    }
+
     &__input {
       &:checked ~ .checkbox__checkmark {
         background-color: $color-silver;
