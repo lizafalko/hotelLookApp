@@ -101,6 +101,11 @@
   @media (max-width: 500px) {
     box-shadow: none;
 
+    &__pretext_average {
+      font-size: $font-size-small;
+      margin-top: 0;
+    }
+
     &__container {
 
       &_info {
