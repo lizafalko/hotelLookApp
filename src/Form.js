@@ -12,7 +12,7 @@ export function Form(props) {
       <input className="form__field form__field_input" type="text" name="surname" placeholder="Телефон" />
       <input className="form__field form__field_input" type="text" name="mail" placeholder="Email" />
       <Checkbox checkboxClass="checkbox checkbox_mobile" />
-      <input className="form__field form__field_button" type="submit" value="Записаться" />
+      <button className="form__field form__field_button" type="submit">Записаться</button>
       <Checkbox checkboxClass="checkbox checkbox_desktop" />
     </form>
   );
