@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import ReactDOM from 'react';
 import { HOTELS } from './Hotels.js'
 import { MAX_DESCRIPTION_LENGTH } from './MaxDescriptionLength.js';
-import './App.css';
 
 export class HotelCard extends Component {
   render() {

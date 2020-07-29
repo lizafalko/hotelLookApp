@@ -136,3 +136,20 @@ html, body {
 .page__page--modification {
   margin-right: 40px;
 }
+
+.app {
+  width: 1200px;
+  margin: auto;
+
+  @media (max-width: 1240px) {
+    width: 940px;
+  }
+
+  @media (max-width: 999px) {
+    width: 760px;
+  }
+
+  @media (max-width: 760px) {
+    width: 100%;
+  }
+}

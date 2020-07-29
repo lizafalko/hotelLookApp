@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react';
-import './App.css';
 
 export class SearchBar extends Component {
   render() {

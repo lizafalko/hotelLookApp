@@ -3,7 +3,6 @@ import ReactDOM from 'react';
 import { HOTELS } from './Hotels.js'
 import { HotelCard } from './HotelCard';
 import { SearchBar } from './SearchBar.js';
-import './App.css';
 
 export class About extends Component {
   constructor(props) {
