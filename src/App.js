@@ -1,16 +1,25 @@
-import React from 'react';
-import Banner from './Banner';
-import About from './About';
+import React, { Component } from 'react';
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Home from './components/Home'
+import Cart from './components/Cart'
 
-function App() {
-  return (
-    <div className="app">
-      <About />
-      <Banner isPhoneDefined={true} fullPurchase="50 000" installmentPurchase="2 900" beginnersPurchase="29 000" beginnersNumber="20" />
-      <About />
-      <Banner fullPurchase="50 000" installmentPurchase="2 900" beginnersPurchase="29 000" beginnersNumber="20" />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+       <BrowserRouter>
+            <div className="App">
+            
+              <Navbar/>
+                <Switch>
+                    <Route exact path="/" component={Home}/>
+                    <Route path="/cart" component={Cart}/>
+                  </Switch>
+             </div>
+       </BrowserRouter>
+      
+    );
+  }
 }
 
 export default App;

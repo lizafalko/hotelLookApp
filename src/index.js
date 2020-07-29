@@ -1,16 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
-import './fonts/Roboto.ttf'
-import './fonts/Robotobold.ttf'
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+import './index.css'
+import cartReducer from './components/reducers/cartReducer';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const store = createStore(cartReducer);
 
-serviceWorker.unregister();
+ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
+
