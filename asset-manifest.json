@@ -1,13 +1,15 @@
 {
-  "main.css": "/hotelLookApp/static/css/main.df073d04.chunk.css",
-  "main.js": "/hotelLookApp/static/js/main.6d06a999.chunk.js",
-  "main.js.map": "/hotelLookApp/static/js/main.6d06a999.chunk.js.map",
-  "static/js/1.439a106e.chunk.js": "/hotelLookApp/static/js/1.439a106e.chunk.js",
-  "static/js/1.439a106e.chunk.js.map": "/hotelLookApp/static/js/1.439a106e.chunk.js.map",
+  "main.css": "/hotelLookApp/static/css/main.3d8187a1.chunk.css",
+  "main.js": "/hotelLookApp/static/js/main.e057d9a6.chunk.js",
+  "main.js.map": "/hotelLookApp/static/js/main.e057d9a6.chunk.js.map",
+  "static/js/1.8a4f3ac0.chunk.js": "/hotelLookApp/static/js/1.8a4f3ac0.chunk.js",
+  "static/js/1.8a4f3ac0.chunk.js.map": "/hotelLookApp/static/js/1.8a4f3ac0.chunk.js.map",
   "runtime~main.js": "/hotelLookApp/static/js/runtime~main.a7b6a6ae.js",
   "runtime~main.js.map": "/hotelLookApp/static/js/runtime~main.a7b6a6ae.js.map",
-  "static/media/Roboto.ttf": "/hotelLookApp/static/media/Roboto.c613ca81.ttf",
-  "static/media/Robotobold.ttf": "/hotelLookApp/static/media/Robotobold.1fc6a83d.ttf",
-  "static/media/index.scss": "/hotelLookApp/static/media/rect.294b2ca5.svg",
+  "static/media/item1.jpg": "/hotelLookApp/static/media/item1.6c426583.jpg",
+  "static/media/item2.jpg": "/hotelLookApp/static/media/item2.8779dd15.jpg",
+  "static/media/item3.jpg": "/hotelLookApp/static/media/item3.9bd2546f.jpg",
+  "static/media/item4.jpg": "/hotelLookApp/static/media/item4.65bc33d7.jpg",
+  "static/media/item6.jpg": "/hotelLookApp/static/media/item6.f5fd97b5.jpg",
   "index.html": "/hotelLookApp/index.html"
 }
