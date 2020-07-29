@@ -1,10 +1,13 @@
 {
-  "main.css": "/hotelLookApp/static/css/main.c9f1ce46.chunk.css",
-  "main.js": "/hotelLookApp/static/js/main.4cb88042.chunk.js",
-  "main.js.map": "/hotelLookApp/static/js/main.4cb88042.chunk.js.map",
-  "static/js/1.ffc880ee.chunk.js": "/hotelLookApp/static/js/1.ffc880ee.chunk.js",
-  "static/js/1.ffc880ee.chunk.js.map": "/hotelLookApp/static/js/1.ffc880ee.chunk.js.map",
+  "main.css": "/hotelLookApp/static/css/main.780f9f1a.chunk.css",
+  "main.js": "/hotelLookApp/static/js/main.749fae27.chunk.js",
+  "main.js.map": "/hotelLookApp/static/js/main.749fae27.chunk.js.map",
+  "static/js/1.76011dd5.chunk.js": "/hotelLookApp/static/js/1.76011dd5.chunk.js",
+  "static/js/1.76011dd5.chunk.js.map": "/hotelLookApp/static/js/1.76011dd5.chunk.js.map",
   "runtime~main.js": "/hotelLookApp/static/js/runtime~main.a7b6a6ae.js",
   "runtime~main.js.map": "/hotelLookApp/static/js/runtime~main.a7b6a6ae.js.map",
+  "static/media/FuturaPT-Medium.ttf": "/hotelLookApp/static/media/FuturaPT-Medium.540c81bc.ttf",
+  "static/media/FuturaPT-Heavy.ttf": "/hotelLookApp/static/media/FuturaPT-Heavy.8b9416a7.ttf",
+  "static/media/FuturaPT-Book.ttf": "/hotelLookApp/static/media/FuturaPT-Book.0d987efe.ttf",
   "index.html": "/hotelLookApp/index.html"
 }
