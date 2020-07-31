@@ -1,0 +1,31 @@
+.advantages {
+  min-height: 320px;
+  padding: 30px;
+  background: $color-yellow;
+  color: $color-black-primary;
+
+  &__heading {
+    font-size: 42px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (max-width: 760px) {
+    &__icons {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 460px) {
+    &__heading {
+      font-size: 30px;
+      line-height: 32px;
+    }
+  }
+}

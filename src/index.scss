@@ -1,0 +1,29 @@
+@import "./scss/colors.scss";
+@import "./scss/vars.scss";
+@import "./scss/app.scss";
+@import "./scss/blocks/advantages.scss";
+@import "./scss/blocks/icon-segment.scss";
+@import "./scss/blocks/info.scss";
+@import "./scss/blocks/banner.scss";
+@import "./scss/blocks/about.scss";
+
+@font-face {
+  font-family: 'DinWebNarrowDemi';
+  src: local('DinWebNarrowDemi'), url(./fonts/DinWebNarrowDemi.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'DINPro-CondBold';
+  src: local('DINPro-CondBold'), url(./fonts/DINPro-CondBold.otf) format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: $font-family-primary;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: $font-family-monospace;
+}

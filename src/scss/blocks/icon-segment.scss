@@ -1,0 +1,42 @@
+.icon-segment {
+  display: block;
+  padding: 20px 40px;
+
+  &_large {
+    max-width: 280px;
+  }
+
+  &_small {
+    max-width: 160px;
+  }
+
+  &__image {
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform .2s ease-in-out;
+
+    &_large {
+      width: 193px;
+      height: 90px;
+    }
+
+    &_small {
+      width: 80px;
+      height: 80px;
+    }
+  }
+
+  &__description {
+    margin-top: 8px;
+
+    &_bold {
+      font-weight: 500;
+    }
+  }
+
+  @media screen and (min-width: 760px) {
+		&__image:hover {
+			transform: scale(1.1);
+		}
+	}
+}

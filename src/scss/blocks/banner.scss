@@ -1,0 +1,153 @@
+.banner {
+  min-height: 450px;
+  padding: 30px 0 0;
+  background: url('./img/Shape.svg') 100% 0 no-repeat, $color-gradient;
+  color: $color-white;
+  text-align: left;
+
+  &__wrapper {
+    display: flex;
+    background: url('./img/parallax.svg') center center no-repeat;
+    padding: 0 0 200px;
+    background-size: 1350px;
+    background-attachment: fixed;
+    background-position: center 12%;
+    background-repeat: no-repeat;
+  }
+
+  &__heading {
+    font-size: 52px;
+    line-height: 52px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 145px 0 0 120px;
+  }
+
+  &__image {
+    position: absolute;
+    width: 460px;
+    top: 3%;
+  }
+
+  @media (min-width: 2000px) {
+    &__image {
+      right: 34%;
+    }
+  }
+
+  @media (max-width: 2000px) {
+    &__image {
+      right: 25%;
+    }
+  }
+
+  @media (max-width: 1500px) {
+    &__image {
+      right: 22%;
+      top: 8%;
+    }
+  }
+
+  @media (max-width: 1250px) {
+    background: url('./img/Shape.svg') center center, $color-gradient;
+
+    &__image {
+      width: 350px;
+      top: 25%;
+      left: 34%;
+    }
+
+    &__wrapper {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &__heading {
+      margin: 40px auto 0;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    &__image {
+      left: 30%;
+      top: 25%;
+    }
+  }
+
+  @media (max-width: 1050px) {
+    &__image {
+      left: 30%;
+      top: 15%;
+    }
+
+    &__wrapper {
+      background: url('./img/mob_parallax.svg') center bottom no-repeat;
+      background-size: 100%;
+      padding: 0 0 305px;
+      background-attachment: fixed;
+      background-position: center 15%;
+      background-repeat: no-repeat;
+    }
+  }
+
+
+  @media (max-width: 770px) {
+    &__image {
+      left: 23%;
+      top: 20%;
+    }
+  }
+
+  @media (max-width: 550px) {
+    &__image {
+      width: 340px;
+      left: 15%;
+      top: 25%;
+    }
+  }
+
+  @media (max-width: 460px) {
+    &__image {
+      width: 80%;
+      left: 10%;
+    }
+
+    &__heading {
+      font-size: 40px;
+      line-height: 40px;
+    }
+
+    &__wrapper {
+      padding: 0 0 330px;
+    }
+  }
+
+  @media (max-width: 420px) {
+    &__image {
+      width: 80%;
+      left: 5%;
+      top: 25%;
+    }
+  }
+
+  @media (max-width: 380px) {
+    &__image {
+      top: 25%;
+    }
+  }
+
+  @media (max-width: 375px) {
+    &__image {
+      width: 85%;
+      top: 30%;
+    }
+  }
+
+  @media (max-width: 320px) {
+    &__image {
+      width: 90%;
+      top: 40%;
+    }
+  }
+}
