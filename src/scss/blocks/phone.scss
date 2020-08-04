@@ -1,0 +1,21 @@
+.phone {
+  color: $color-grey;
+  padding: 0 10px 10px;
+  margin: 0 0 30px;
+  font-size: $font-size-small;
+  line-height: 28px;
+  list-style: none;
+
+  &__item {
+    padding: 8px;
+
+    &::before {
+      display: inline-block;
+      color: $color-blue;
+      content: "\2022";
+      font-weight: bold;
+      margin-left: -1em;
+      width: 1.3em;
+    }
+  }
+}

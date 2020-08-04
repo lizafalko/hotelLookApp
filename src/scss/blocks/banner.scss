@@ -1,153 +1,136 @@
 .banner {
-  min-height: 450px;
-  padding: 30px 0 0;
-  background: url('./img/Shape.svg') 100% 0 no-repeat, $color-gradient;
-  color: $color-white;
-  text-align: left;
+  display: flex;
+  justify-content: center;
+  max-width: 1170px;
+  min-height: 807px;
+  box-shadow: 0px 2px 24px rgba(168, 175, 196, 0.3);
 
-  &__wrapper {
+  &__container {
     display: flex;
-    background: url('./img/parallax.svg') center center no-repeat;
-    padding: 0 0 200px;
-    background-size: 1350px;
-    background-attachment: fixed;
-    background-position: center 12%;
-    background-repeat: no-repeat;
+    width: 585px;
+    padding: 50px;
+    flex-direction: column;
+
+    &_purchase {
+      background: $color-blue;
+      color: $color-white;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    &_info {
+      background: $color-white;
+      padding: 40px 10px 40px 75px;
+    }
+  }
+
+  &__purchase {
+    margin-bottom: 30px;
+  }
+
+  &__pretext {
+    line-height: 18px;
+
+    &_small {
+      font-size: $font-size-small;
+      letter-spacing: -0.5px;
+      opacity: 0.5;
+    }
+
+    &_medium {
+      font-size: 38px;
+      margin-top: 20px;
+      font-weight: 300;
+      letter-spacing: -2px;
+      text-decoration: line-through;
+      opacity: 0.4;
+    }
+
+    &_large {
+      font-weight: 300;
+      font-size: 50px;
+      letter-spacing: -2px;
+      margin-bottom: 0;
+      line-height: 66px;
+    }
+
+    &_average {
+      font-size: 20px;
+      margin-top: 5px;
+      line-height: 23px;
+      letter-spacing: -0.5px;
+    }
   }
 
   &__heading {
-    font-size: 52px;
-    line-height: 52px;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin: 145px 0 0 120px;
+    font-weight: normal;
+    font-size: 80px;
+    margin: 0 auto;
+    line-height: 106px;
   }
 
-  &__image {
-    position: absolute;
-    width: 460px;
-    top: 3%;
+  &__text {
+    font-family: $font-family-bold;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 27px;
+    margin-top: 0;
   }
 
-  @media (min-width: 2000px) {
-    &__image {
-      right: 34%;
+  &__subtitle {
+    font-family: $font-family-bold;
+    font-weight: bold;
+    font-size: 34px;
+    letter-spacing: -0.5px;
+  }
+
+  @media (max-width: 1000px) {
+    width: 100%;
+    flex-wrap: wrap;
+
+    &__container {
+      width: 100%;
+
+      &_purchase {
+        padding: 120px 50px 80px;
+      }
     }
   }
 
-  @media (max-width: 2000px) {
-    &__image {
-      right: 25%;
-    }
-  }
+  @media (max-width: 500px) {
+    box-shadow: none;
 
-  @media (max-width: 1500px) {
-    &__image {
-      right: 22%;
-      top: 8%;
-    }
-  }
-
-  @media (max-width: 1250px) {
-    background: url('./img/Shape.svg') center center, $color-gradient;
-
-    &__image {
-      width: 350px;
-      top: 25%;
-      left: 34%;
+    &__pretext_average {
+      font-size: $font-size-small;
+      margin-top: 0;
     }
 
-    &__wrapper {
-      flex-wrap: wrap;
-      justify-content: center;
+    &__container {
+
+      &_info {
+        padding: 40px;
+      }
+
+      &_purchase {
+        padding: 100px 50px 50px;
+      }
+    }
+
+    &__text {
+      font-size: 18px;
+      margin-top: -10px;
     }
 
     &__heading {
-      margin: 40px auto 0;
-      text-align: center;
-    }
-  }
-
-  @media (max-width: 1100px) {
-    &__image {
-      left: 30%;
-      top: 25%;
-    }
-  }
-
-  @media (max-width: 1050px) {
-    &__image {
-      left: 30%;
-      top: 15%;
-    }
-
-    &__wrapper {
-      background: url('./img/mob_parallax.svg') center bottom no-repeat;
-      background-size: 100%;
-      padding: 0 0 305px;
-      background-attachment: fixed;
-      background-position: center 15%;
-      background-repeat: no-repeat;
-    }
-  }
-
-
-  @media (max-width: 770px) {
-    &__image {
-      left: 23%;
-      top: 20%;
-    }
-  }
-
-  @media (max-width: 550px) {
-    &__image {
-      width: 340px;
-      left: 15%;
-      top: 25%;
+      font-size: 56px;
     }
   }
 
   @media (max-width: 460px) {
-    &__image {
-      width: 80%;
-      left: 10%;
-    }
-
     &__heading {
-      font-size: 40px;
-      line-height: 40px;
-    }
-
-    &__wrapper {
-      padding: 0 0 330px;
-    }
-  }
-
-  @media (max-width: 420px) {
-    &__image {
-      width: 80%;
-      left: 5%;
-      top: 25%;
-    }
-  }
-
-  @media (max-width: 380px) {
-    &__image {
-      top: 25%;
-    }
-  }
-
-  @media (max-width: 375px) {
-    &__image {
-      width: 85%;
-      top: 30%;
-    }
-  }
-
-  @media (max-width: 320px) {
-    &__image {
-      width: 90%;
-      top: 40%;
+      font-size: 56px;
+      line-height: 74px;
     }
   }
 }

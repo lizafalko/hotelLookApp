@@ -1,20 +1,21 @@
 @import "./scss/colors.scss";
 @import "./scss/vars.scss";
 @import "./scss/app.scss";
-@import "./scss/blocks/advantages.scss";
-@import "./scss/blocks/icon-segment.scss";
-@import "./scss/blocks/info.scss";
 @import "./scss/blocks/banner.scss";
 @import "./scss/blocks/about.scss";
+@import "./scss/blocks/label.scss";
+@import "./scss/blocks/phone.scss";
+@import "./scss/blocks/form.scss";
+@import "./scss/blocks/checkbox.scss";
 
 @font-face {
-  font-family: 'DinWebNarrowDemi';
-  src: local('DinWebNarrowDemi'), url(./fonts/DinWebNarrowDemi.ttf) format('truetype');
+  font-family: 'Roboto';
+  src: local('Roboto'), url(./fonts/Roboto.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: 'DINPro-CondBold';
-  src: local('DINPro-CondBold'), url(./fonts/DINPro-CondBold.otf) format('truetype');
+  font-family: 'Roboto Bold';
+  src: local('Robotobold'), url(./fonts/Robotobold.ttf) format('truetype');
 }
 
 body {
